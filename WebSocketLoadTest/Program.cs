@@ -6,9 +6,9 @@ using System.Net.WebSockets;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using WebSocketEchoLoadTest.SendingStrategy;
+using WebSocketEchoLoadGenerator.SendingStrategy;
 
-namespace WebSocketEchoLoadTest
+namespace WebSocketEchoLoadGenerator
 {
     class Program
     {

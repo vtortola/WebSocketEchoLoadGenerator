@@ -7,8 +7,8 @@
     <ProjectGuid>{ED3F9480-65F2-46BA-8934-9364AB31D690}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>WebSocketEchoLoadTest</RootNamespace>
-    <AssemblyName>WebSocketEchoLoadTest</AssemblyName>
+    <RootNamespace>WebSocketEchoLoadGenerator</RootNamespace>
+    <AssemblyName>WebSocketEchoLoadGenerator</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

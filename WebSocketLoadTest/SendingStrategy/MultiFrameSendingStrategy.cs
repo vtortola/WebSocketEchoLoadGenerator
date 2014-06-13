@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace WebSocketEchoLoadTest.SendingStrategy
+namespace WebSocketEchoLoadGenerator.SendingStrategy
 {
     public class MultiFrameSendingStrategy : SendingStragegy
     {
