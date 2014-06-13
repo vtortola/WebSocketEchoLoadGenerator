@@ -6,7 +6,7 @@ This simple application simulates load on a target with parallel connections. It
 ### Usage
 
 ```
-Usage: [Websocket URI] [ Client Amount ] [Message delay ms] [Message Byte Length] [Frame Byte Length]
+[Websocket URI] [ Client Amount ] [Message delay ms] [Message Byte Length] [Frame Byte Length]
 ```
 
 For example, to simulate 100 clients to `ws://myserver.com/api/ws` sending each messages of 512 bytes, and wait 10 milliseconds when the echo is received before sending the next one it would be>
