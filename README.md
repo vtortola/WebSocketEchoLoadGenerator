@@ -5,7 +5,7 @@ This simple application simulates load on a target with parallel connections. Ea
 
 It is possible to configure:
  * The amount of connections.
- * The dealy between echo operations, if any.
+ * The delay between echo operations, if any.
  * The message length.
  * The frame length. This setting, together with the message length, allows to send a message split across multiple frames.
 
