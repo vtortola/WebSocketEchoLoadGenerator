@@ -1,9 +1,17 @@
 WebSocket Echo Load Generator
 =============================
 
-This simple application simulates load on a target with parallel connections. It sends a message and waits for a response before sending the next one.
+This simple application simulates load on a target with parallel connections. Each connection performs echo operations in a loop, in other works, it sends a message and expects to have the same message back, and then repeat.
 
-An echo operation involves sending the message, wait for a response and fully read the response.
+It is possible to configure:
+ * The amount of connections.
+ * The dealy between echo operations, if any.
+ * The message length.
+ * The frame length. This setting, together with the message length, allows to send a message split across multiple frames.
+
+Also, it supports `wss://`.
+
+The application uses `System.Net.WebSockets.ClientWebSocket`, so Windows 8/2012 is required to run it.
 
 ### Usage
 
